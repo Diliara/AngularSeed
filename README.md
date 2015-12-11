@@ -2,7 +2,7 @@ Seed for a simple project with [AngularJS](https://angularjs.org/), [Grunt](http
 
 - update grunt dependencies according to the package.json
 
-      npm install grunt --save-dev
+          npm install grunt --save-dev
       
 - update cdns
 
