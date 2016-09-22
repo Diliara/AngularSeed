@@ -7,3 +7,7 @@ Seed for a simple project with [AngularJS](https://angularjs.org/), [Grunt](http
 - update cdns
 
 - choose responsive design framework and delete unused code (default: Foundation, commented in index.html and app.js Bootstrap options).
+
+- test on
+
+		http://localhost:9090/#/

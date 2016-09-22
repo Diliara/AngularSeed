@@ -4,6 +4,14 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        connect: {
+            server: {
+                options: {
+                    port: 9090,
+                    base: ''
+                }
+            }
+        },
         jshint: {
             files: ['Gruntfile.js', 'js/*.js'],
             options: {
@@ -47,6 +55,7 @@ module.exports = function (grunt) {
 
     /* Default task. Run `grunt` on the command line */
     grunt.registerTask('default', [
+        'connect',
         'jshint',
         'sass:dev',
         'watch'
